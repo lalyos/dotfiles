@@ -87,7 +87,8 @@ alias la='ls -A'
 alias l='ls -CF'
 
 alias gs='git status'
-alias gl='git log --oneline --decorate --graph --color'
+alias gls='git log --oneline --decorate --graph --color'
+alias gl='git log --date=short --pretty=format:"%h %Cblue%ad%Creset %an %Cred%d %Cgreen%s%Creset" --graph'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
